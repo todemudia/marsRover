@@ -1,0 +1,23 @@
+{
+  "name": "marsrover",
+  "version": "1.0.0",
+  "description": "Calculate movement of mars rovers in a 2d space",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "pretest": "npm run build",
+    "prestart": "npm run build",
+    "start": "node dist/app.js",
+    "test:watch": "jest --watch"
+  },
+  "author": "Joshua Odemudia",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "typescript": "^5.5.3"
+  }
+}
